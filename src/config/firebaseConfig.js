@@ -1,10 +1,10 @@
 const firebaseConfig = {
-  apiKey: "AIzaSyBMfHUVXe4GDHryY7sJMPmnElS5kLDZZo4",
-  authDomain: "crypto-hunter-50991.firebaseapp.com",
-  projectId: "crypto-hunter-50991",
-  storageBucket: "crypto-hunter-50991.appspot.com",
-  messagingSenderId: "141181984273",
-  appId: "1:141181984273:web:ba51a25e27ce6a2b1d9bb0",
+  apiKey: process.env.REACT_APP_FIREBASE_APIKEY,
+  authDomain: process.env.REACT_APP_FIREBASE_AUTHDOMAIN,
+  projectId: process.env.REACT_APP_FIREBASE_PROJECTID,
+  storageBucket: process.env.REACT_APP_FIREBASE_STORAGEBUCKET,
+  messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGINGSENDERID,
+  appId: process.env.REACT_APP_FIREBASE_APPID,
 };
 
 export default firebaseConfig;
